@@ -70,8 +70,18 @@
 }
 
 .post-content a,
+.post-content a span,
 .toc a:hover {
     box-shadow: 0 1px 0;
+}
+
+.post-content h1 a,
+.post-content h2 a,
+.post-content h3 a,
+.post-content h4 a,
+.post-content h5 a,
+.post-content h6 a {
+    box-shadow: none;
 }
 
 .post-content a code {
