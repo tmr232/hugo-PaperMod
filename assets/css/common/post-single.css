@@ -319,6 +319,16 @@
     border: 1px solid var(--border);
 }
 
+.discuss a {
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 1em;
+    border: 2px solid;
+    font-style: italic;
+    text-decoration: underline;
+    padding:0.5em;
+}
+
 .post-tags a {
     display: block;
     padding-inline-start: 14px;
