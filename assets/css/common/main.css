@@ -42,6 +42,15 @@
 
 code {
     direction: ltr;
+
+    /* 
+    Prevent browsers from inflating code.
+    Some mobile readers said it was making code font size inconsistent.
+
+    MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
+    */
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 }
 
 div.highlight,
