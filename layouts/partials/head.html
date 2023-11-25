@@ -119,6 +119,11 @@
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
 {{ end -}}
 
+{{- /* Webmention */}}
+{{- if site.Params.webmentionEndpoint }}
+<link rel="webmention" href="{{ site.Params.webmentionEndpoint }}">
+{{ end -}}
+
 <noscript>
     <style>
         #theme-toggle,
